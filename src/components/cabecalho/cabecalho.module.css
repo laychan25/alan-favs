@@ -1,0 +1,38 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: var(--preto);
+}
+
+.div{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+ .logo1{
+    width: 250px;
+    padding: 1em 3em
+
+}
+
+@media screen and (max-width:480px) {
+    .logo1{
+        width: 150px;
+        padding: 0 ;
+    }
+
+    .div{
+        display: block;
+        align-items: center;
+      
+    }
+
+    .cabecalho{
+        background-color: var(--preto);
+    }
+}
+
+
+

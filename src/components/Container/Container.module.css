@@ -1,0 +1,16 @@
+.container section{
+    margin: 2.5em 20em;
+    text-align: center;
+
+}
+
+
+@media screen and (max-width:480px) {
+    .container section{
+        display: inline-block;
+        margin: 3.5rem;
+
+      
+    }
+   
+}

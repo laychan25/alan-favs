@@ -1,0 +1,9 @@
+.texto{
+    font-size: 25px;
+    color: var(--preto);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+
+}
